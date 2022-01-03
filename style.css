@@ -1,0 +1,560 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor:url(images/iconmonstr-cursor-6-32.png),auto;
+    
+}
+header{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    background-color: #ffff;
+}
+
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    padding: 20px;
+    margin-left: 100px;
+margin-top: 9px; 
+}
+
+header .nav{
+    position: absolute;
+    top:0;
+    right: 0;
+    margin-right: 110px;
+}
+
+header .nav ul {
+    list-style-type: none;
+}
+
+header .nav ul li {
+    float: left;
+    padding: 20px ;
+}
+
+header .nav ul li a {
+    color:rgb(49, 48, 48);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight:bold;
+    transition: all 0.2section1s ease;
+}
+
+header .nav ul li a:hover{
+    color:#8490FF;
+}
+
+
+/* SECTION ONE START*/
+
+.section1{
+    width:100%;
+    height:750px;
+    background-color:#F9F9FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 .intro_1,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    background-color: #ffff;
+}
+
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    padding: 20px;
+    margin-left: 100px;
+margin-top: 9px; 
+}
+
+header .logo img{
+    width: 150px;
+    height: 45px;
+}
+
+header .nav{
+    position: absolute;
+    top:0;
+    right: 0;
+    margin-right: 110px;
+}
+
+header .nav ul {
+    list-style-type: none;
+}
+
+header .nav ul li {
+    float: left;
+    padding: 20px ;
+}
+
+header .nav ul li a {
+    color:rgb(49, 48, 48);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight:bold;
+    transition: all 0.4s ease;
+}
+
+header .nav ul li a:hover{
+    color:#8490FF;
+}
+
+
+.check_btn{
+    font-size: 50px;
+    line-height: 20px;
+    position: absolute;
+    right:-88px;
+    display: none;
+    margin-top: 21px;
+
+    
+}
+
+.check_btn_ins{
+
+}
+    
+
+#menu_btn{
+   display: none; 
+}
+
+
+/* SECTION ONE START*/
+
+.section1{
+    width:100%;
+    height:750px;
+    background-color:#d3d3e7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 .intro_1,.intro_2{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.section1 .intro_1{
+    margin-left: 230px;
+    margin-right: 50px;
+}
+
+.section1 .intro_1 h1{
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section1 .intro_1  p{
+    color:#8c8c8d;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.section1 .intro_1 .btn{
+    width: 200px;
+    height: 40px;
+    color:#fff;
+    border:none;
+    background: rgb(63,34,195);
+    background: linear-gradient(94deg, rgb(54, 166, 155) 0%, rgba(85, 193, 76, 0.7) 95%);
+    transition: all 0.3s ease;
+    font-family: lato;
+    border-radius: 25px;
+}
+.section1 .intro_1 .btn:hover{
+    box-shadow: 1px 20px 58px -9px rgba(33,174,56,0.75);
+    -webkit-box-shadow: 1px 20px 58px -9px rgba(33,174,56,0.75);
+    -moz-box-shadow: 1px 20px 58px -9px rgba(33,174,56,0.75);
+    font-weight: bold;
+
+}
+
+.section1 .intro_2{
+    padding-right: 160px;
+   
+}
+
+.section1 .intro_2 img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.section2{
+   width: 100%; 
+   display: flex;
+   justify-content:space-between;
+
+}
+
+
+.section2 .intro_1 img{
+    max-width: 100%;
+    height: auto;
+    padding-right: 160px;
+}
+
+
+
+.section2 .intro_1,.intro_2{
+    width: 50%;
+    padding-top: 50px;
+}
+
+
+.section2 .intro_2{
+    background: rgb(51,204,184);
+    background: linear-gradient(321deg, rgba(51,204,184,1) 1%, rgba(250,250,250,1) 94%);
+    padding-left: 50px;
+    cursor: url("images/iconmonstr-cursor-6-32 (1).png"),auto;
+}
+
+.section2 .intro_2 h3{
+    font-family: lato;
+   
+}
+
+.section2 .intro_2 p{
+    width:60%;
+    color: rgb(2 92 255);
+
+    font-family: lato;
+    margin-bottom: 50px;
+    
+}
+
+.section2 .intro_2  .view{
+        width:200px;
+        height: 40px;
+        
+
+       
+        background-color: #8490FF;
+}
+
+.section2 .intro_2  .view a{
+        padding-top: 12px;
+        padding-left:50px;
+        display: block;
+        color:#fff;
+        text-decoration: none;
+        text-transform: uppercase;
+}
+
+
+
+/*sextion 3*/
+
+
+.section3{
+    width:100%;
+    margin:0 auto;
+    height: 650px;
+    text-align: center;
+    background-color: #e8e9f1d8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: url(images/iconmonstr-cursor.png),auto;
+
+}
+
+
+.service{
+    width:80%;
+    margin: 0 auto;
+}
+
+.service .ser_txt, .ser_1{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.service .ser_1 div{
+    width:32%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+
+.ser_ins1{
+    
+    padding-top: 50px;
+    margin-left: 10px;
+    -webkit-box-shadow: -1px 7px 3px -1px #000000; 
+    box-shadow: -1px 7px 3px -1px #000000;
+    transition:all 0.3s ease;
+    border-radius: 50px 10px 50px 10px;
+    background-color: hsla(108, 53%, 41%, 0.705);
+}
+.ser_ins1:hover{
+    top:-5px;
+    background-color: hsla(300, 2%, 9%, 0.11);
+    outline: 1px solid green;
+    
+    border-radius: 0px 50px 0px 50px;
+}
+.ser_ins1 .ser_icon{
+      font-size: 70px;
+      color:rgb(26, 12, 226);
+}
+
+.ser_ins1:hover .ser_icon{
+    color:#06060a;
+}
+
+
+.ser_ins1 h1{
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ser_ins1 p{
+    color:rgb(15, 49, 161);
+    font-family: lato;
+}
+
+.section3 .ser_txt{
+    line-height: 16px;
+}
+.section3 .ser_txt h1{
+    padding-top: 46px;
+    font-family: lato;
+    font-size: 35px;
+}
+
+.section3 .ser_txt p{
+    font-family: lato;
+    width: 500px;
+    color:rgba(24, 24, 24, 0.801);
+    text-align: center;
+    margin: 0 auto;
+    
+
+}
+
+.service img{
+    width:200px;
+}
+
+
+
+/* section 4*/
+
+.work_dt {
+    background-color: rgb(204, 125, 204);
+    width: 100%;
+}
+
+.work_dt_ins{
+    display: flex;
+    width: 80%;
+    margin:0 auto;
+    
+    background-color: beige;
+    justify-content: space-between;
+}
+
+.work_dt_ins> div{
+    width: 32%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.work_dt_ins .box1{
+    text-align: center;
+    border: 1px  dotted green;
+}
+
+.work_dt_ins .box1 .icon{
+    font-size: 50px;
+}
+
+.work_dt_ins .box1 .counter{
+    color:red;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+	
+	
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+#menu_btn{
+    
+ }
+ .check_btn{
+     display: block;
+ }
+
+ header .logo{
+    margin-right: 15px;
+ }
+
+ 
+header .nav ul {
+    list-style-type: none;
+    position: fixed;
+    right:200%;
+    top:65px;
+    width: 100%;
+    height: 100vh;
+    transition: all 1s ease;
+    background-color: #8c8c8d;
+    align-items: center;
+    
+}
+header .nav ul li{
+    line-height: 30px;
+    
+    width: 100%;
+   
+  
+    border-bottom: 1px solid black;
+}
+
+header .nav ul li:hover{
+    background-color: black;
+    border-bottom: 1px solid rgb(255, 254, 254);
+}
+header .nav ul li:hover a{
+    color:#fff;
+    display: block;
+}
+
+header .nav ul li a:hover{
+  
+   
+    width: 100%;
+    height: 100%;
+   
+}
+
+.service .ser_1 div{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.section3{
+    background: #ffff;
+}
+
+.section1 .intro_2 img{
+    width: 100%;
+    display: block;
+}
+
+}
+
+#menu_btn:checked ~ ul{
+    right:0;
+}
+
+
+
+
+/*#########################################################################*/
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+}
+
